@@ -8,12 +8,13 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #d0d6d6;
+    font-size: 20px;
 }
 .main-body
 {
     min-width: 100%;
-    min-height: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to right, #36d1dc , #5b86e5 100%);
 }
 .main
 {
@@ -24,10 +25,12 @@ body
 input[type=text]
 {
     transition: width 2s ease-in-out;
+    height: 25px;
+    font-size: 20px;
 }
 .inp
 {
-    border: 2px solid coral;
+    border: 2px solid black;
     border-radius: 5px;
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
@@ -40,8 +43,12 @@ input[type=text]
 }
 .inpu
 {
-    border: 2px solid coral;
+    border: 2px solid black;
     border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    padding: 2px;
+    padding-left: 10px;
 }
 input[type=button], input[type=submit], input[type=reset]
 {
